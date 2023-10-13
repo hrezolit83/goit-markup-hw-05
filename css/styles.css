@@ -617,7 +617,7 @@ img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     width: 264px;
     height: 40px;
-    border-color: #FFFFFF;
+    color: #FFFFFF;
     background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
     border-radius: 4px; 
@@ -627,7 +627,7 @@ img {
 
 .mail-input::placeholder{
     font-size: 12px;
-    color: white;
+    color: #FFFFFF;
     line-height: 2;
     letter-spacing: 0.48px;
 }
