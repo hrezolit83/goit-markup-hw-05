@@ -565,12 +565,12 @@ img {
 .footer-form{
     display: flex;
     gap: 24px;
-    align-items: flex-end;
+    
     
 }
 
 .form-container{
-    display: flex;
+    
     
 }
 
@@ -578,28 +578,51 @@ img {
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-}
-
-.footer-label{
-    color: white;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+}
+
+.email-btn:hover{
+    background-color: #404bbf;
+}
+
+
+.footer-label-title{
+    display: block;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .email-input{
     display: flex;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     width: 264px;
     height: 40px;
-    margin-top: 16px;
     border-color: #FFFFFF;
     background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
-    border-radius: 4px; border: 1px white solid;
-    padding: 8px 16px;
+    border-radius: 4px; 
+    border: 1px #ffffff solid;
+    padding-left: 16px;
 }
 
 .mail-input::placeholder{
@@ -610,25 +633,8 @@ img {
 }
 
 
-.email-btn{
-    
-    padding: 8px 24px;
-    font-family: inherit;
-    font-size: 16px;
-    color: white;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    background-color: #4D5AE5;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-}
 
-.email-btn:hover{
-    background-color: #404bbf;
-}
+
 
 .btn-icon{
     fill: #FFFFFF;
