@@ -20,7 +20,7 @@ ul {
 a {
     text-decoration: none;
     color: currentColor;
-    display: block;
+    
 }
 
 img {
@@ -528,7 +528,7 @@ img {
 }
 
 .media-container{
-    
+    margin-right: 80px;
 }
 
 .footer-soc-list{
@@ -562,6 +562,79 @@ img {
     fill: #f4f4fd;
 }
 
+.footer-form{
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+    
+}
+
+.form-container{
+    display: flex;
+    
+}
+
+.email-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 165px;
+    height: 40px;
+}
+
+.footer-label{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.email-input{
+    display: flex;
+    width: 264px;
+    height: 40px;
+    margin-top: 16px;
+    border-color: #FFFFFF;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; border: 1px white solid;
+    padding: 8px 16px;
+}
+
+.mail-input::placeholder{
+    font-size: 12px;
+    color: white;
+    line-height: 2;
+    letter-spacing: 0.48px;
+}
+
+
+.email-btn{
+    
+    padding: 8px 24px;
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.email-btn:hover{
+    background-color: #404bbf;
+}
+
+.btn-icon{
+    fill: #FFFFFF;
+    margin-left: 16px;
+}
+
 .backdrop{
     position: fixed;
     width: 100%;
@@ -589,7 +662,7 @@ img {
 
 .modal-btn-icon{
     fill: #2E2F42;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -603,7 +676,18 @@ img {
     position: absolute;
     top: 24px;
     right: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-btn:hover{
+    background-color: #404BBF;
+    border: none;
+}
+
+.modal-btn:hover > .modal-btn-icon{
+    fill: #FFFFFF;
+}
+
 
 .modal-title{
     padding-top: 48px;
@@ -719,3 +803,48 @@ img {
     letter-spacing: 0.02em;
     
 }
+
+.check-input{
+    
+}
+
+.check-text{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    
+}
+
+.check-text a {
+    color: #4D5AE5;
+    text-decoration: underline;
+    margin-left: 8px;
+    position: relative;
+}
+
+.check-text span{
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    fill: transparent;
+    border-radius: 2px; 
+    border: 1px rgba(46, 47, 66, 0.40) solid;
+}
+
+.modal-check-icon{
+    transform: translateX(30%);
+}
+
+.check-input:checked + .check-text span{
+    fill: #F4F4FD;
+    background-color: #404BBF;
+    border: none;
+}
+
+

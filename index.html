@@ -398,10 +398,30 @@
                                 </a>
                             </li>
                     </ul>
+                    
                </div>
+               <div class="form-container">
+                <form class="footer-form">
+                    <label class="footer-label">
+                        Subscribe
+                        <input
+                        class="email-input" 
+                        type="text" 
+                        name="email" 
+                        placeholder="E-mail"
+                        >
+                    </label>
+                    <button type="submit" class="email-btn">
+                        Subscribe
+                        <svg class="btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame-3"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-btn">
                 <svg width="8" height="8" class="modal-btn-icon">
@@ -455,6 +475,17 @@
                 <div class="modal-field">
                     <label class="modal-label"><span class="label-text">Comment</span>
                         <textarea name="user-text" id="user-text" class="modal-text" placeholder="Text input"></textarea>
+                    </label>
+                </div>
+                <div class="modal-field">
+                    <input class="check-input visually-hidden" type="checkbox" name="modal-check" id="modal-check">
+                    <label class="check-text" for="modal-check">
+                        <span>
+                            <svg class="modal-check-icon" width="10" height="10">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the <a href="">Privacy Policy</a>
                     </label>
                 </div>
                 <button class="modal-send-btn" type="button"><span class="btn-txt">Send</span></button>
