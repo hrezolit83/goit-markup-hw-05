@@ -884,10 +884,10 @@ img {
 }
 
 .span{
-    display: flex;
+    display: inline-flex;
 }
 
 .modal-check{
-    margin-bottom: 24px;
+    margin-bottom: 16px
 
 }
