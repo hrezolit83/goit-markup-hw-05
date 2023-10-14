@@ -893,3 +893,7 @@ img {
     margin-bottom: 24px
 
 }
+
+.btn-txt{
+    display: inline-flex;
+}
