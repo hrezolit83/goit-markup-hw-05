@@ -811,8 +811,6 @@ img {
 }
 
 .check-text{
-    display: flex;
-    align-items: center;
     position: relative;
     color: #8E8F99;
     font-size: 12px;
