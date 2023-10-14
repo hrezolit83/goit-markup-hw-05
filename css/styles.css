@@ -886,3 +886,8 @@ img {
 .span{
     display: flex;
 }
+
+.modal-check{
+    margin-bottom: 24px;
+    
+}
