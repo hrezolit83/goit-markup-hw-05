@@ -704,7 +704,7 @@ img {
 
 
 .modal-btn:hover > .modal-btn-icon, 
-.modal-btn:hover > .modal-btn-icon{
+.modal-btn:focus > .modal-btn-icon{
     fill: #FFFFFF;
 }
 
@@ -889,5 +889,5 @@ img {
 
 .modal-check{
     margin-bottom: 24px;
-    
+
 }
