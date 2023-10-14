@@ -895,3 +895,7 @@ img {
 .btn-txt{
     display: inline-flex;
 }
+
+.modal-field-chek{
+    margin-bottom: 24px;
+}
