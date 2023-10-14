@@ -830,7 +830,7 @@ img {
 }
 
 .check-text span{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 16px;
@@ -890,6 +890,6 @@ img {
 }
 
 .modal-check{
-    margin-bottom: 24px
+    margin-bottom: 16px
 
 }
